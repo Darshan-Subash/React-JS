@@ -13,6 +13,8 @@ function App() {
     }
     else{
       Counter = Counter + 1;
+      setCounter((Counter)=>Counter)
+      setCounter(Counter)
       setCounter(Counter)}
   }
   const removeValue = () =>{
